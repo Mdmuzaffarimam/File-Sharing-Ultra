@@ -71,7 +71,7 @@ class Bot(Client):
             sys.exit()
 
         self.set_parse_mode(ParseMode.HTML)
-        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by https://t.me/Animes_X_Hunters")
+        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by https://t.me/Mrn_Officialx")
         self.username = usr_bot_me.username
 
         # Web server setup
