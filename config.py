@@ -12,7 +12,7 @@ APP_ID = int(os.environ.get("APP_ID", "23631217"))
 API_HASH = os.environ.get("API_HASH", "567c6df308dc6901790309499f729d12")
 
 # Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002358430928"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002486183403"))
 
 # OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "6139759254"))
@@ -31,7 +31,7 @@ FORCE_CHANNEL2 = int(os.environ.get("FORCE_CHANNEL2", "-1002232443823"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 # Mainly add graph else telegraph link
-START_PIC = os.environ.get("START_PIC", "https://files.catbox.moe/1b3lde.jpg")
+START_PIC = os.environ.get("START_PIC", "https://files.catbox.moe/zm88qj.jpg")
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://files.catbox.moe/5l37sr.jpg")
 
 # Add your text according to you
