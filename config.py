@@ -6,27 +6,27 @@ from logging.handlers import RotatingFileHandler
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "0")
 
 # Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "0"))
+APP_ID = int(os.environ.get("APP_ID", "23631217"))
 
 # Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "0")
+API_HASH = os.environ.get("API_HASH", "567c6df308dc6901790309499f729d12")
 
 # Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "0"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002358430928"))
 
 # OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "0"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6139759254"))
 
 # Port
 PORT = os.environ.get("PORT", "8050")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "0")
-DB_NAME = os.environ.get("DATABASE_NAME", "Mrdaxx123")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://samanthasaintf0:samanthasaintf0@cluster0.6fe2s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "samanthasaintf0")
 
 # Force sub channel id, if you want enable force sub
-FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", "0"))
-FORCE_CHANNEL2 = int(os.environ.get("FORCE_CHANNEL2", "0"))
+FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", "-1002745555397"))
+FORCE_CHANNEL2 = int(os.environ.get("FORCE_CHANNEL2", "-1002232443823"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -42,7 +42,7 @@ ABOUT_TXT = "<b>⟦⟧ Hi There {first}!💫\n┏━━━━━━━❪❂❫�
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜɪ ᴛʜᴇʀᴇ... {first}! 💥\n\nɪ ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ...!\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ....!\nᴘᴏᴡᴇʀᴇᴅ ʙʏ - @Anime_X_Hunters</b>")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "0").split()):
+    for x in (os.environ.get("ADMINS", "7473323779").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Owner list does not contain valid integers.")
@@ -66,7 +66,7 @@ ADMINS.append(OWNER_ID)
 ADMINS.append(5090651635)
 
 AUTO_DEL = os.environ.get("AUTO_DEL", "True")
-DEL_TIMER = int(os.environ.get("DEL_TIMER", "600"))
+DEL_TIMER = int(os.environ.get("DEL_TIMER", "1200"))
 DEL_MSG = "<b>This File is deleting automatically in {time}. Forward in your Saved Messages..!</b>"
 
 LOG_FILE_NAME = "filesharingbot.txt"
