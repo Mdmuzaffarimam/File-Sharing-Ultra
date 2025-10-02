@@ -92,8 +92,8 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup([
             [InlineKeyboardButton("ʜᴇʟᴘ", callback_data='help'),
              InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data='about')],
-            [InlineKeyboardButton('ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/Anime_X_Hunters'),
-             InlineKeyboardButton('ᴏɴɢᴏɪɴɢ ᴄʜᴀɴɴᴇʟ', url='https://t.me/Ongoing_Anime_X_Hunter')],
+            [InlineKeyboardButton('ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/Mrn_Officialx'),
+             InlineKeyboardButton('ᴏɴɢᴏɪɴɢ ᴄʜᴀɴɴᴇʟ', url='https://t.me/+y39okAtBCPNlZGY1')],
             [InlineKeyboardButton("ᴄʟᴏꜱᴇ", callback_data='close')]
         ])
         await message.reply_photo(
