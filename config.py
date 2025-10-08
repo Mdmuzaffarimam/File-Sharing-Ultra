@@ -51,7 +51,7 @@ except ValueError:
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {first}!⚡\n\n🫧ᴘʟᴇᴀꜱᴇ ᴊᴏɪɴ ʙᴏᴛʜ ᴏꜰ ᴏᴜʀ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟꜱ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ...!")
 
 # set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("<b>{file_caption}/n/n━━━━━━━━━━━━━━━━━━━━━/n☎ Owner By :- @Mimam_Officialx 🌹/n/n💝Join Our Main Channel : @Mrn_Officialx💥/n/n❤️ First & Exclusive On Telegram 🌺</b>", None)
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
 # set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
